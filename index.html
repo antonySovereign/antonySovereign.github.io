@@ -15,10 +15,24 @@
 	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
+	<link rel="stylesheet" href="./timer.css">
 	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+
+	<div class="moveWinTimer">
+		<div id="textWin">
+			<div class="container">
+				<p>До конца акции осталось : <br><span class="timer" id="timer-days"></span>
+					<span class="timer" id="timer-hours"></span>
+					<span class="timer" id="timer-minutes"></span>
+					<span class="timer" id="timer-seconds"></span></p>
+			</div>
+		</div>
+		<button id="btnCloseTimer" class="custom-btn btn-3"><span>Закрыть<span></button>
+	</div>
+
 	<div class="modal" id="windowcart" tabindex="-1" aria-labelledby="windowcartLabel" aria-hidden="true">
 		<div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
 			<div class="modal-content" style="background-color:PowderBlue">
@@ -224,6 +238,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 
+	<script src="./timer.js"></script>
 	<script src="./slider.js"></script>
 	<script src="./script.js"></script>
 
