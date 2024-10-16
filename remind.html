@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Вход в систему | Сервис БРС</title>
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans&subset=cyrillic-ext,latin' rel='stylesheet'
+        type='text/css'>
+    <script type="text/javascript" src="static/js/libs/jquery-1.11.1.min.js"></script>
+    <link type="text/css" href="static/css/common.css" rel="stylesheet" />
+    <link type="text/css" href="static/css/sign/sign.css" rel="stylesheet" />
+    <script type="text/javascript" src="static/js/config.js"></script>
+    <script type="text/javascript" src="static/js/sign.js"></script>
+    <script type="text/javascript" src="static/js/libs/jquery.placeholder.js"></script>
+    <script type="text/javascript" src="static/js/wnd/wnd.js"></script>
+    <script type="text/javascript" src="static/js/event_inspector/eventInspector.js"></script>
+    <script type="text/javascript" src="static/js/supportDialog.js"></script>
+    <script type="text/javascript" src="static/js/updates.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div id="wrap" class="page">
+        <div class="header_wrapper">
+            <div class="logotype alignLeft"><a href="index.html" title="Перейти на главную">Сервис БРС</a></div>
+            <div class="faculty alignLeft"></div>
+            <div class="navigation">
+                Аутентификация
+            </div>
+        </div>
+        <div class="main_layer">
+            <div class="main">
+                <div class="main_content sidePadding" style="overflow: hidden">
+                    <div class="AuthForm">
+                        <h2>Восстановление доступа</h2>
+                        <div class='tips'>
+                            Случилось так, что Вы забыли пароль?<br>
+                            Введите свой E-Mail адрес, и мы пришлем данные для восстановления доступа.
+                        </div><input id='email' placeholder='' class="marginBetween defaultForm" type='text'
+                            name='email' value=''><input id='remind' type='button' name='remind'
+                            class="defaultForm GreenButton FullWidth" value='Восстановить'>
+                        <div class='footer'><a href="sign/in.html">Я вспомнил! Просто дайте мне войти.</a></div>
+                    </div>
+                    <div class="updates">
+                        <div class="tabs">
+                            <div id="tab-news" class="tab selected">
+                                Новости
+                            </div>
+                            <div id="tab-updates" class="tab ">
+                                Обновления
+                            </div>
+                            <div id="tab-syncs" class="tab ">
+                                Синхронизации
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div id="content-news" class="">
+                                <div class="message">
+                                    <h3>02.09.24</h3>
+                                    <p> Уважаемые студенты 1-го курса!</p>
+                                    <p align=justify>
+                                        Работа с Сервисом БРС для недавно зачисленных студентов станет возможна после 15
+                                        сентября.
+                                    </p>
+                                    <h3>06.02.24</h3>
+                                    <p> Уважаемые студенты и преподаватели!</p>
+                                    <p align=justify>
+                                        В СБРС быди добавлены данные весеннего семестра 2023-24 уч. года.
+                                        Можно заполнить УКД и начать выставлять баллы.
+                                        При обнаружении проблем в полноте данных из СБРС прежде всего обращайтесь в
+                                        деканаты подразделений!
+                                    </p>
+                                </div>
+                                <div class="extra hidden"></div>
+                                <div class="expand" style="display:none">Ещё</div>
+                            </div>
+                            <div id="content-updates" class="hidden">
+                                <div class="message">
+                                    <h3></h3>
+                                </div>
+                                <div class="extra hidden"></div>
+                                <div class="expand" style="display:none">Ещё</div>
+                            </div>
+                            <div id="content-syncs" class="hidden">
+                                <div class="message">
+                                    <h3>2019-05-18</h3>
+                                    <div>17:30:00</div>
+                                    <h3>2019-05-11</h3>
+                                    <div>18:00:00</div>
+                                </div>
+                                <div class="extra hidden"></div>
+                                <div class="expand" style="display:none">Ещё</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="altFooter"><span class="attentionFooter"><a href="instructions.pdf"
+                            title="Открыть руководство" class="attentionFooter" target="blank">Руководство пользователя
+                            Сервиса БРС (.pdf)</a> |
+                    </span><a href="order248.pdf" target="blank">Положение о порядке применения БРС (.pdf)</a> |
+                    <a href="faq.html" target="blank">ЧаВо (часто задаваемые вопросы)</a>
+                </div>
+                <div class="dev"><a href="https://vk.com/itlab_mmcs" target="_blank">IT-лаборатория мехмата ЮФУ © 2014 —
+                        2024</a></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
